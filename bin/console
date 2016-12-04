@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "github_scraper_cli"
+
+require_relative '../config/environment'
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
@@ -13,4 +14,5 @@ require "github_scraper_cli"
 require "irb"
 require "rake"
 require "pry"
+puts "Welcome to your scraper"
 IRB.start

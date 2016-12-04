@@ -1,3 +1,5 @@
-require_relative '../lib/github_scraper_cli'
+#!/usr/bin/env ruby
 
-::CLI.new.call
+require_relative '../config/environment'
+
+puts "Welcome!"
