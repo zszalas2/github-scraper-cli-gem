@@ -11,8 +11,12 @@ require_relative '../config/environment'
 # require "pry"
 # Pry.start
 
+def reload!
+  load all './lib'
+end
+
+gem 'rake'
+gem 'pry'
+gem 'require_all'
 require "irb"
-require "rake"
-require "pry"
-puts "Welcome to your scraper"
-IRB.start
+pry.start
