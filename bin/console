@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-require "bundler/setup"
 
 require_relative '../config/environment'
 
@@ -12,7 +11,7 @@ require_relative '../config/environment'
 # Pry.start
 
 def reload!
-  load all './lib'
+  load '../lib'
 end
 
 gem 'rake'

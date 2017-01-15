@@ -1,7 +1,16 @@
-class CommanLineInterface#greet user
+#CLI Controller
+class CLI
+#greet user
 
-def initialize 
-  puts "Let's scrape some shit!"
+  def initialize
+    end
+
+  def call  
+    start
+  end
+
+def call
+  puts "To scrape or not to scrape?"
 end
 
 end
